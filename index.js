@@ -2,5 +2,6 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-contenttools'
+  name: 'ember-contenttools',
+  isDevelopingAddon: function() { return true; }
 };
